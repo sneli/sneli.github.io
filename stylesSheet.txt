@@ -1,0 +1,14 @@
+- COLORS -
+web background color: rgb(222, 231, 223);
+border color: #7ca36d;
+darker border color: #698a5c;
+darkest border color: #546e4a;
+widgit background color: rgb(255, 254, 249);
+font color: #141414;
+
+- SIZES -
+top bar is 35px (padding)
+
+- FONTS -
+main font: kalam;
+pixel font: 'Pixelify Sans', sans-serif;

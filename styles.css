@@ -1,0 +1,374 @@
+/*On every page*/
+html{
+    background-color:rgb(255, 254, 249);
+}
+#topTitle{
+    width: 1300px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: rgb(255, 254, 249);
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+    background-color:#698a5c;
+    border-left:3px solid #698a5c;
+    border-right:3px solid #698a5c;
+}
+
+#topBar{
+    width: 1300px;
+    height: 30px;
+    margin: auto;
+    background-color:#7ca36d;
+    text-align: center;
+    font-family: kalam;
+    border: 3px solid #7ca36d;
+}
+
+#topList{
+    text-align: center;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 15px;
+    position: relative;
+}
+
+#TopTab{
+    color: rgb(255, 254, 249);
+    text-decoration: none;
+}
+
+#xbutton{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 9px;
+}
+
+#xbuttonWeb{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+}
+
+#tabDivs{
+    height: 600px;
+    width: 1300px;
+    border-left: 3px solid #7ca36d;
+    border-right: 3px solid #7ca36d;
+    border-bottom: 3px solid #7ca36d;
+
+    background-color: rgb(222, 231, 223);
+    
+    margin: auto;
+    position: relative;
+}
+
+
+
+/*Index section*/
+
+#mainDiv{
+    height: 600px;
+    width: 1300px;
+    border-left: 3px solid #7ca36d;
+    border-right: 3px solid #7ca36d;
+    border-bottom: 3px solid #7ca36d;
+
+    background-color: rgb(222, 231, 223);
+    
+    margin: auto;
+    position: relative;
+}
+
+#music{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+
+    padding: 35px 15px 20px 15px;
+    width: 275px;
+    height: 375px;
+    border: 5px solid #7ca36d;
+    background-color:rgb(255, 254, 249);
+}
+
+#song{
+    padding-top: 10px;
+    width: 275px;
+    height: 275px;
+}
+
+#musicButtons{
+    padding-top: 30px;
+    width: 245px;
+}
+
+#homeWelcome{
+    position: absolute;
+    top: 80px;
+    right: 250px;
+
+    width: 380px;
+    height: 160px;
+    border: 5px solid #7ca36d;
+    background-color:rgb(255, 254, 249);
+}
+
+#welcomeText{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 75px;
+}
+
+#homePar{
+    position: absolute;
+    top: 300px;
+    right: 300px;
+
+    padding: 10px;
+    width: 250px;
+    height: 165px;
+    border: 5px solid #7ca36d;
+    background-color:rgb(255, 254, 249);
+
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #141414;
+}
+
+#plantGIF{
+    position: absolute;
+    right: 65px;
+    top: 30px;
+
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+
+
+/*About section*/
+
+#aboutSection{
+    position: absolute;
+    top: 60px;
+    right: 200px;
+    height: 490px;
+    width: 500px;
+
+    border: 5px solid #698a5c;
+    background-color:rgb(255, 254, 249);
+}
+
+#aboutIntro{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 45px;
+    text-align:center;
+}
+
+#aboutPara{
+    position: absolute;
+    top: 100px;
+
+    text-align: center;
+    font-family: kalam;
+    color:#141414;
+    padding-left: 35px;
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+#aboutPhoto{
+    position: absolute;
+    top: 40px;
+    left: 275px;
+    padding-top: 35px;
+   
+    border: 5px solid #7ca36d;
+    background-color: rgb(255, 254, 249);
+    height: 450px;
+}
+
+#aboutPicture{
+    height: 450px;
+}
+
+
+/*Hobbies section*/
+
+#hobby1{
+    padding-top: 35px;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+
+    border: 5px solid #7ca36d;
+    width: 375px;
+    height: 250px;
+    background-color:rgb(255, 254, 249);
+}
+
+#hobbyPhoto1{
+    height: 250px;
+}
+
+#hobby1text{
+    position: absolute;
+    top: 15px;
+    right: 120px;
+
+    border: 5px solid #7ca36d;
+    width: 515px;
+    height: 290px;
+    text-align: center;
+
+    background-color:rgb(255, 254, 249);
+}
+
+#hobby1para{
+    padding: 15px 15px 5px 15px;
+    font-family: kalam;
+    color:#141414;
+    font-size: 16px;
+}
+
+#hobby2{
+    padding-top: 35px;
+    position: absolute;
+    bottom: 30px;
+    right: 190px;
+
+    border: 5px solid #7ca36d;
+    width: 355px;
+    height: 200px;
+    background-color:rgb(255, 254, 249);
+}
+
+#hobbyPhoto2{
+    height: 200px;
+}
+
+#hobby2text{
+    padding: 25px 15px 5px 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 170px;
+
+    border: 5px solid #7ca36d;
+    width: 440px;
+    height: 220px;
+    text-align: center;
+
+    background-color:rgb(255, 254, 249)
+}
+
+#hobby2para{
+    font-family: kalam;
+    color:#141414;
+    font-size: 16px;
+}
+
+
+
+/*Resume*/
+
+#xbuttonResume{
+    width: 25px;
+    height: 25px;
+    position: sticky;
+    top: 3px;
+    left: 3px;
+}
+
+#experience{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    border: 5px solid #7ca36d;
+    width: 500px;
+    height: 500px;
+
+    background-color: rgb(255, 254, 249);
+}
+
+#education{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    border: 5px solid #7ca36d;
+    width: 600px;
+    height: 240px;
+
+    background-color: rgb(255, 254, 249);
+}
+
+#skills{
+    position: absolute;
+    top: 30px;
+    right: 310px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    border: 5px solid #7ca36d;
+    width: 350px;
+    height: 240px;
+
+    background-color: rgb(255, 254, 249);
+}
+
+#resumeTitle{
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #546e4a;
+    font-size: 30px;
+    padding-left: 35px;
+}
+
+#resumeList{
+    padding-left: 50px;
+    list-style-type: circle;
+    font-family:kalam;
+    font-size:15px;
+    color:#141414;
+}
+
+#vines{
+    position: absolute;
+    top: 30px;
+    right: 60px;
+
+    border: 5px solid #7ca36d;
+    width: 200px;
+    height: 240px;
+
+    background-color: rgb(255, 254, 249);
+}
+
+#vinesGIF{
+    text-align: center;
+    height: 220px;
+}
